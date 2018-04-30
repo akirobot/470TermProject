@@ -7,22 +7,53 @@
 
 #navigation li {
 	display: inline-block;
+	padding: 0 7%;
+}
+
+#navigation a {
+	text-decoration: none;
 }
 
 /*Main*/
 #main {
 	float: right;
+	width: 85%;
+}
+
+#childrensDiv, #youthDiv, #HSAdultDiv {
+	padding: 0 20%;
+}
+
+.levels {
+	font-weight: bold;
+}
+
+#main h2 {
+	text-decoration: underline;
 }
 
 /*Sidebar*/
 #sidebar {
-	float: left
+	float: left;
+	width: 15%;
 }
 
 #sidebar ul {
 	list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+#sidebar li {
+	padding-bottom: 10%;
+}
+
+#sidebar a {
+	text-decoration: none;
+}
+
+#sidebar p {
+	font-weight: bold;
 }
 
 /*Footer*/
