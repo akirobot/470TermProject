@@ -1,0 +1,22 @@
+/* Navigation */
+#navigation ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+	display: inline-block;
+}
+
+/*Main*/
+#main {
+
+}
+
+/*Sidebar*/
+#sidebar ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
