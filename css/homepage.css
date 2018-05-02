@@ -1,0 +1,29 @@
+#homepage{
+    margin: 0% auto;
+    width: 70%;
+    background-color: white;
+}
+#mainsection{
+}
+#sidebar{
+    background-color: royalblue;
+    color: white;
+    width: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#homepage img{
+    margin-top: 2%;
+}
+@media only screen and (min-width: 800px){
+   #mainsection{
+        width: 70%;
+        margin: 0% auto;
+    }
+    #homepage{
+        width: 75%;
+    }
+    #sidebar{
+        width: 25%;
+    }
+}
