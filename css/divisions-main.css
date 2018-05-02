@@ -1,5 +1,5 @@
 /* Navigation */
-#navigation ul {
+/*#navigation ul {
 	list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@
 
 #navigation a {
 	text-decoration: none;
-}
+}*/
 
 /*Main*/
 #main {
@@ -60,5 +60,31 @@
 
 footer {
 	clear: both;
+}
+
+#contactinfo{
+    color: white;
+    background-color: #333333;
+    padding: 1% 0% 1% 4%;
+}
+#contactinfo table{
+    width: 90%;
+}
+#contactinfo table td{
+    padding-left: 4%;
+    width: 60%;
+}
+#contactinfo a:any-link{
+    color: lightblue;
+}
+#created{
+    color: black;
+    background-color: lightgray;
+    margin-top: 1%;
+    padding: 1% 0% 1% 4%;
+}
+
+.sub{
+    text-indent: 1.5em;
 }
 
