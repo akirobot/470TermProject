@@ -1,0 +1,16 @@
+#sidebar{
+    position: relative;
+    float: left;
+    width: 25%;
+}
+#mainsection{
+    width: 75%;
+    position: relative;
+    float: right;
+}
+@media only screen and (min-width: 950px){
+    #homepage{
+        width: 75%;
+        margin: 0% auto;
+    }
+}
