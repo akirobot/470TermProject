@@ -49,6 +49,11 @@ nav table{
     color: lightcoral;
 }
 #contactinfo{
+    width: 10%;
+    float: left;
+    margin-right: auto;
+}
+#contactinfo{
     color: white;
     background-color: #333333;
     padding: 1% 0% 1% 0%;
@@ -81,7 +86,6 @@ nav table{
 html{
     font-family: "Roboto", sans-serif;
     background-image: linear-gradient(#66AEBD, white, #364983);
-    height: 100%;
 }
 @media only screen and (min-width: 950px){
     header{
