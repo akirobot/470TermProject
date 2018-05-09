@@ -2,13 +2,23 @@
     width: 25%;
     float: left;
     margin: 2% 0;
+    font-size: 0.9em;
+    color: #C4C4C4;
 }
 #sidebar td{
-    padding: 5% 0;
+    padding: 5% 5%;
+    background-color: #333333;
+}
+#sidebar a:any-link{
+    color: lightblue;
+}
+#sidebar a:hover{
+    color: lightcoral;
 }
 #mainsection{
-    width: 75%;
+    width: 70%;
     float: right;
+    margin-left: 5%;
 }
 #mainsection h3{
     text-align: center;
@@ -35,6 +45,6 @@
         
     }
     #sidebar{
-        width: 15%;
+        width: 25%;
     }
 }
