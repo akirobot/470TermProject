@@ -6,7 +6,6 @@
 }
 header{
     background-color: #333333;
-    color: white;
 }
 h1{
     text-align: center;
@@ -15,15 +14,18 @@ h1{
     font-size: 2.5em;
     margin: 1%;
 }
-h1 a:link{
+a{
+    -o-transition:color .2s ease-out, background 2s ease-in;
+    -ms-transition:color .2s ease-out, background 2s ease-in;
+    -moz-transition:color .2s ease-out, background 2s ease-in;
+    -webkit-transition:color .2s ease-out, background 2s ease-in;
+}
+h1 a{
     color: white;
     text-decoration: none;
 }
 h1 a:hover{
     color: lightcoral;
-}
-h1 a:visited{
-    color: white;
 }
 #lowertext{
     text-align: center;
@@ -39,11 +41,8 @@ nav table{
     padding: 2% 1% 1% 1%;
     text-align: center;
 }
-#navigation a:link{
+#navigation a:any-link{
     color: white;
-}
-#navigation a:visited{
-    color: lightgray;
 }
 #navigation a:hover{
     color: lightcoral;
@@ -51,7 +50,7 @@ nav table{
 #contactinfo{
     color: white;
     background-color: #333333;
-    clear:both;
+    clear: both;
 }
 #contactinfo table{
     width: 90%;

@@ -1,12 +1,21 @@
+#homepage{
+    width: 100%;
+}
 #sidebar{
-    width: 25%;
+    margin-top: 2%;
+    width: 23%;
     float: left;
 }
 #mainsection{
+    margin-top: 2%;
     width: 75%;
     float: right;
 }
-
+#mainsection h3{
+    text-align: center;
+    font-family: Arvo;
+    margin-bottom: 2%;
+}
 @media only screen and (min-width: 950px){
     #homepage{
         width: 75%;
