@@ -1,0 +1,99 @@
+/* Navigation */
+/*#navigation ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+	display: inline-block;
+	padding: 0 7%;
+}
+
+#navigation a {
+	text-decoration: none;
+}*/
+
+#wrap {
+	width: 90%;
+    margin-left: 5%;
+}
+
+/*Main*/
+#main {
+	float: right;
+	width: 85%;
+}
+
+#childrensDiv, #youthDiv, #HSAdultDiv {
+	padding: 0 20%;
+	background-color: white;
+}
+
+.levels {
+	font-weight: bold;
+}
+
+#main h2 {
+	text-decoration: underline;
+}
+
+/*Sidebar*/
+#sidebar {
+	float: left;
+	width: 15%;
+	background-color: lightblue;
+}
+
+#sidebar ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar li {
+	padding-bottom: 10%;
+}
+
+#sidebar a {
+	text-decoration: none;
+}
+
+#sidebar p {
+	font-weight: bold;
+}
+
+/*Footer*/
+
+footer {
+	clear: both;
+}
+
+/*#contactinfo{
+    color: white;
+    background-color: #333333;
+    padding: 1% 0% 1% 4%;
+}
+#contactinfo table{
+    width: 90%;
+}
+#contactinfo table td{
+    padding-left: 4%;
+    width: 60%;
+}
+#contactinfo a:any-link{
+    color: lightblue;
+}
+#created{
+    color: black;
+    background-color: lightgray;
+    margin-top: 1%;
+    padding: 1% 0% 1% 4%;
+}
+
+.sub{
+    text-indent: 1.5em;
+}*/
+
+
+

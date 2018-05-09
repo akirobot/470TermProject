@@ -1,3 +1,6 @@
+#homepage{
+    width: 100%;
+}
 #studentproject{
     margin-bottom: 1%;
     padding-top: 1%;
@@ -51,13 +54,13 @@ nav table{
     color: white;
     background-color: #333333;
     clear: both;
+    margin-bottom: 2%;
+    padding: 1% 0%;
+    width: 100%;
 }
 #contactinfo table{
-    width: 90%;
-}
-#contactinfo table td{
-    padding-left: 4%;
-    width: 60%;
+    width: 80%;
+    margin: 0% auto;
 }
 #contactinfo a:link{
     color: lightblue;
@@ -71,27 +74,49 @@ nav table{
 #created{
     color: black;
     background-color: lightgray;
-    padding: 1% 0% 1% 0%;
-    text-indent: 1.5em;
+    padding: 1% 0%;
 }
-.sub{
-    text-indent: 1.5em;
+div{
+    width: 80%;
+    margin: 0% auto;
 }
 html{
     font-family: "Roboto", sans-serif;
+    font-size: 1em;
     background-image: linear-gradient(#66AEBD, white, #364983);
 }
-@media only screen and (min-width: 950px){
-    header{
-        width: 90%;
+@media only screen and (min-width: 770px){
+    html{
+        width: 770px;
         margin: 0% auto;
     }
-    #contactinfo{
-        width: 90%;
+    #contactinfo table{
+        width: 70%;
         margin: 0% auto;
     }
-    #created{
-        width: 90%;
-        margin: 0% auto;
+    div{
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 990px){
+    html{
+        width: 990px;
+    }
+    #contactinfo table{
+        width: 60%;
+    }
+    div{
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    html{
+        width: 1200px;
+    }
+    nav table{
+        width: 70%;
+    }
+    #contactinfo table{
+        width: 60%;
     }
 }

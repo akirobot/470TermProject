@@ -1,18 +1,40 @@
-#homepage{
-    width: 100%;
-}
 #sidebar{
     width: 25%;
     float: left;
+    margin: 2% 0;
+}
+#sidebar td{
+    padding: 5% 0;
 }
 #mainsection{
     width: 75%;
     float: right;
 }
+#mainsection h3{
+    text-align: center;
+    font-family: Arvo;
+    font-weight: normal;
+    margin: 2% 0%;
+}
 
-@media only screen and (min-width: 950px){
+@media only screen and (min-width: 770px){
     #homepage{
-        width: 75%;
+        width: 90%;
         margin: 0% auto;
+    }
+}
+@media only screen and (min-width: 990px){
+    
+    #sidebar{
+        width: 20%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    #homepage{
+        width: 70%;
+        
+    }
+    #sidebar{
+        width: 15%;
     }
 }
