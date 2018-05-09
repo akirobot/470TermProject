@@ -15,14 +15,15 @@
 }*/
 
 #wrap {
-	width: 90%;
-    margin-left: 5%;
+	width: 100%;
+    /*margin-left: 5%;*/
 }
 
 /*Main*/
 #main {
 	float: right;
-	width: 75%;
+	width: 80%;
+    padding: 2% 0%;
 	/*background-image: linear-gradient(#66AEBD, white, #364983);*/
 }
 
@@ -37,6 +38,7 @@
 
 .levels {
 	font-weight: bold;
+	text-align: center;
 }
 
 #main h2 {
@@ -46,8 +48,10 @@
 /*Sidebar*/
 #sidebar {
 	float: left;
-	width: 25%;
-	/*background-color: lightblue;*/
+	width: 16%;
+    padding: 2% 2%;
+    margin-top: 2%;
+	background-color: #333333;
 }
 
 #sidebar ul {
@@ -63,12 +67,18 @@
 
 #sidebar a {
 	text-decoration: none;
+	color: white;
 }
 
 #sidebar p {
 	font-weight: bold;
 	text-align: center;
 	padding: 5% 0%;
+	color: #C4C4C4;
+}
+
+#sidebar a:hover{
+    color: lightcoral;
 }
 
 /*Footer*/
