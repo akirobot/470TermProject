@@ -21,7 +21,8 @@
 .form_row {
 	display: block;
 	overflow: auto;
-	margin: 5px 0 5px 0;
+	width: 90%;
+	margin: 1em auto 1em auto;
 }
 
 .form_label {
