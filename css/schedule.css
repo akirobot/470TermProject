@@ -1,0 +1,11 @@
+#calendar {
+	width: 100%;
+	margin: auto;
+	padding: 50px;
+	background-color: azure;
+}
+
+#schedule {
+	background-color: azure;
+	padding: 50px;
+}
