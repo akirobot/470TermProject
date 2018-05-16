@@ -10,6 +10,8 @@
 	<link href = "css/registration.css" rel= "stylesheet"/>
      
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto+Condensed|Roboto|Arvo" rel="stylesheet">
+
+    <script src="js/functions.js"></script>
 </head>
 <body>
 <header>
@@ -31,173 +33,173 @@
     <div id="about">
     <form class="form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 	<h1> Registration </h1>
-	<fieldset class="form_panel">
-		<legend class="form_heading">Student Information </legend>
-		<div class="form_row">
-			<div class="form_label">
+	<fieldset class="form panel">
+		<legend class="form heading">Student Information </legend>
+		<div class="form row">
+			<div class="form label">
 				<label for="first_name">First Name</label>
 			</div>
-			<input class="form_field" type="text" name="first_name" id="first_name" required="true"/>
+			<input class="form field_required" type="text" name="first_name" id="first_name" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="last_name">Last Name</label>
 			</div>
-			<input class="form_field" type="text" name="last_name" id="last_name" required="true"/>
+			<input class="form field_required" type="text" name="last_name" id="last_name" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="middle_name">Middle Name</label>
 			</div>
-			<input class="form_field" type="text" name="middle_name" id="middle_name"/>
+			<input class="form field" type="text" name="middle_name" id="middle_name"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="birthdate">Date of Birth</label>
 			</div>
-			<input class="form_field" type="date" name="birthdate" id="birthdate" required="true"/>
+			<input class="form field_required" type="date" name="birthdate" id="birthdate" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="gender">Gender: </label>
 			</div>
-			<div class="form_field">
+			<div class="form field">
         			<input type="radio" name="gender" value="female" required="true">Female
 				<input type="radio" name="gender" value="male">Male
 			</div>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="home_address">Home address</label>
 			</div>
-			<input class="form_field" type="text" name="home_address" id="home_address" required="true"/>
+			<input class="form field_required" type="text" name="home_address" id="home_address" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="city">City</label>
 			</div>
-			<input class="form_field" type="text" name="city" id="city" required="true"/>
+			<input class="form field_required" type="text" name="city" id="city" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="zipcode">Zipcode</label>
 			</div>
-			<input class="form_field" type="number" name="zipcode" id="zipcode" required="true"/>
+			<input class="form field_required" type="number" name="zipcode" id="zipcode" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="email">Email Address</label>
 			</div>
-			<input class="form_field" type="email" name="email" id="email" required="true"/>
+			<input class="form field_required" type="email" name="email" id="email" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="primary_phone">Primary Phone Number</label>
 			</div>
-			<input class="form_field" type="text" name="primary_phone" id="primary_phone" required="true"/>
+			<input class="form field_required" type="text" name="primary_phone" id="primary_phone" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="secondary_phone">Secondary Phone Number</label>
 			</div>
-			<input class="form_field" type="text" name="secondary_phone" id="secondary_phone" required="true"/>
+			<input class="form field" type="text" name="secondary_phone" id="secondary_phone" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="text_phone">Phone number that we can send text</label>
 			</div>
-			<input class="form_field" type="text" name="text_phone" id="text_phone" required="true"/>
+			<input class="form field" type="text" name="text_phone" id="text_phone" required="true"/>
 		</div>
 	</fieldset>
 		
 
-	<fieldset class="form_panel">
-		<legend class="form_heading">Emergency Contact Information</legend>
-		<div class="form_row">
-			<div class="form_label">
+	<fieldset class="form panel">
+		<legend class="form heading">Emergency Contact Information</legend>
+		<div class="form row">
+			<div class="form label">
 				<label for="contact_first_name">First Name</label>
 			</div>
-			<input class="form_field" type="text" name="contact_first_name" id="contact_first_name" required="true"/>
+			<input class="form field_required" type="text" name="contact_first_name" id="contact_first_name" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="contact_last_name">Last Name</label>
 			</div>
-			<input class="form_field" type="text" name="contact_last_name" id="contact_last_name" required="true"/>
+			<input class="form field_required" type="text" name="contact_last_name" id="contact_last_name" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="contact_middle_name">Middle Name</label>
 			</div>
-			<input class="form_field" type="text" name="contact_middle_name" id="contact_middle_name"/>
+			<input class="form field" type="text" name="contact_middle_name" id="contact_middle_name"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="contact_phone">Phone Number</label>
 			</div>
-			<input class="form_field" type="text" name="contact_phone" id="primary_phone" required="true"/>
+			<input class="form field_required" type="text" name="contact_phone" id="primary_phone" required="true"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="contact_relation">Relation to Student</label>
 			</div>
-			<input class="form_field" type="text" name="contact_relation" id="contact_relation" required="true"/>
+			<input class="form field" type="text" name="contact_relation" id="contact_relation" required="true"/>
 		</div>
 	</fieldset>
 	
-	<fieldset class="form_panel">
-		<legend class="form_heading">Student Background</legend>
-		<div class="form_row">
-			<div class="form_label">
+	<fieldset class="form panel">
+		<legend class="form heading">Student Background</legend>
+		<div class="form row">
+			<div class="form label">
 				<label for="general_school_name">Name of High School/College</label>
 			</div>
-			<input class="form_field" type="text" name="general_school_name" id="general_school_name"/>
+			<input class="form field" type="text" name="general_school_name" id="general_school_name"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="education">Have you studied Japanese?</label>
 			</div>
-			<div class="form_field">
+			<div class="form field">
 				<input type="radio" name="education" value="yes" required="true">Yes
 				<input type="radio" name="education" value="no">No
 			</div>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="education_duration">How long?</label>
 			</div>
-			<input class="form_field" type="text" name="education_duration" id="education_duration"/>
+			<input class="form field" type="text" name="education_duration" id="education_duration"/>
 			
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="japanese_school_name">Name of School</label>
 			</div>
-			<input class="form_field" type="text" name="japanese_school_name" id="japanese_school_name"/>
+			<input class="form field" type="text" name="japanese_school_name" id="japanese_school_name"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="education_time">When?</label>
 			</div>
-			<input class="form_field" type="text" name="education_time" id="education_time"/>
+			<input class="form field" type="text" name="education_time" id="education_time"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="reference">How did you hear about us?</label>
 			</div>
-			<input class="form_field" type="text" name="reference" id="reference"/>
+			<input class="form field" type="text" name="reference" id="reference"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="objective">Your objective, goal, expectation to study Japanese language?</label>
 			</div>
-			<input class="form_field" type="text" name="objective" id="objective"/>
+			<input class="form field" type="text" name="objective" id="objective"/>
 		</div>
 	</fieldset>
 		
-	<fieldset class="form_panel">
-		<legend class="form_heading">Emergency Treatment Consent (for students under 18)</legend>
-		<div class="form_minor_check">
+	<fieldset class="form panel">
+		<legend class="form heading">Emergency Treatment Consent (for students under 18)</legend>
+		<div class="form minor_check">
 			<input type="checkbox" id="minor_registration" name="minor_registration" value="minor_registration">
 			<label for="minor_registration"> The person registering is a minor </label> 
 		</div>
@@ -210,38 +212,38 @@
 			LIMB OR WELL BEING OF THE CHILD NAMED ABOVE.
 		</p>
 		<br>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="medication_allergy">Does your child have any medication allergies?</label>
 			</div>
-			<div class="form_field">
+			<div class="form field">
 				<input type="radio" name="medication_allergy" value="yes" required="true">Yes
 				<input type="radio" name="medication_allergy" value="no">No
 			</div>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="medication_allergy_list">List medication allergies (if any)</label>
 			</div>
-			<input class="form_field" type="text" name="medication_allergy_list" id="medication_allergy_list"/>
+			<input class="form field" type="text" name="medication_allergy_list" id="medication_allergy_list"/>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="food_allergy">Does your child have any food allergies?</label>
 			</div>
-			<div class="form_field">
+			<div class="form field">
 				<input type="radio" name="food_allergy" value="yes" required="true">Yes
 				<input type="radio" name="fod_allergyallergy" value="no">No
 			</div>
 		</div>
-		<div class="form_row">
-			<div class="form_label">
+		<div class="form row">
+			<div class="form label">
 				<label for="food_allergy_list">List food allergies (if any)</label>
 			</div>
-			<input class="form_field" type="text" name="food_allergy_list" id="food_allergy_list"/>
+			<input class="form field" type="text" name="food_allergy_list" id="food_allergy_list"/>
 		</div>
 	</fieldset>
-	<div class="form_model_release_check">
+	<div class="form model_release_check">
 			<input type="checkbox" id="model_release" name="model_release" value="model_release">
 			<label for="minor_registration"> 
 				I hereby grant and assign Long Beach Japanese Language School and its 
