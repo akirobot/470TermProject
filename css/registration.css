@@ -1,4 +1,4 @@
-.form	{
+form	{
 	margin: auto;
 	margin-top: 70px;
 	background-color: #FFFFFF;
@@ -24,12 +24,13 @@
 	width: 90%;
 	margin: 1em auto 1em auto;
 	margin: 5px 0 5px 0;
+}
 
 .form_label {
 	display: inline-block;
 	float: left;
 	text-align: left;
-	max-width: 45%;
+	max-width: 50%;
 }
 
 .form_field {
