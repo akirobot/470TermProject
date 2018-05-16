@@ -9,54 +9,54 @@
 		 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		 <script>
 			$(document).ready(function(){
-				$("#toggleable").hide();
+
 				
 				 $("#january-button").click(function(){
-					 $("#toggleable").hide();
+					 $(".toggleable").hide();
 					  $("#january-calendar").show();
 				 });
 				("#february-button").click(function(){
-					$("#toggleable").hide();
+					$(".toggleable").hide();
 					  $("#february-calendar").show();
 				 });
 				("#march-button").click(function(){
-					$("#toggleable").hide();
+					$(".toggleable").hide();
 					  $("#march-calendar").show();
 				 });
 				("#april-button").click(function(){
-					$("#toggleable").hide();
+					$(".toggleable").hide();
 					  $("#april-calendar").show();
 				 });
 				("#may-button").click(function(){
-					$("#toggleable").hide();
+					$(".toggleable").hide();
 					  $("#may-calendar").show();
 				 });
 				("#june-button").click(function(){
-					$("#toggleable").hide();
+					$(".toggleable").hide();
 					  $("#june-calendar").show();
 				 });
 				("#july-button").click(function(){
-					$("#toggleable").hide();
+					$(".toggleable").hide();
 					  $("#july-calendar").show();
 				 });
 				("#august-button").click(function(){
-					$("#toggleable").hide();
+					$(".toggleable").hide();
 					  $("#august-calendar").show();
 				 });
 				("#september-button").click(function(){
-					$("#toggleable").hide();
+					$(".toggleable").hide();
 					  $("#september-calendar").show();
 				 });
 				("#october-button").click(function(){
-					$("#toggleable").hide();
+					$(".toggleable").hide();
 					  $("#october-calendar").show();
 				 });
 				("#november-button").click(function(){
-					$("#toggleable").hide();
+					$(".toggleable").hide();
 					  $("#november-calendar").show();
 				 });
 				("#december-button").click(function(){
-					$("#toggleable").hide();
+					$(".toggleable").hide();
 					  $("#december-calendar").show();
 				 });
 			});
@@ -100,7 +100,7 @@
 		</div>
 		 
 		<div id="main-body">
-		 <div id="schedule">
+		 <div class="toggleable" id="schedule">
 		 	 <h1>Class Schedule</h1>
 		 	 <p>2017 - 2018</p><br>
 			 <p>Classes are every Saturday, 8:45 - 12:30pm | Children's Introductory Class 8:45am - 12:15pm</p><br>
@@ -123,9 +123,19 @@
       
       
     <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      <div class="month-schedule">
+        <p>6-Jan    Regular Class    1:00 PM     Teacher's Meeting</p>
+        <p>     to the Parents: Monthly Meeting 12:00 pm</p>
+        <p>13-Jan   Regular Class</p>
+        <p>20-Jan   Regular Class    1:15-2:45   Credit Sp. Class</p>
+        <p>27-Jan   Regular Class    1:15-2:45   Credit Sp. Class</p>
+        <p><b>     Last day of the Fall Semester- Registration for the Spring Semester begins</b></p>
+      </div>
+      
+		  <h1 class="calendar-title">January 2018</h1>
 
-	   <table id="calendar">		
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
@@ -296,10 +306,25 @@
 	   </table>
     </div>
       
-    <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      
+      
+      
+    <div class="toggleable" id="february-calendar">
+		  <h1 class="month-title">February 2018</h1>
+      
+      <div class="month-schedule">
+        <p><b>3-Feb ☆ Spring Semester Starts (Registration)</b></p>
+        <p>Regular Class "Setsubun" 1:15-2:45 Credit Sp. Class</p>
+        <p>Report cards for the Fall Semester is given.</p>
+        <p><b>to the Parents: Monthly meeting 12:00</b></p>
+        <p>10-Feb Regular Class 1:15-2:45 Credit Sp. Class</p>
+        <p><b>11-Feb (Sun)　　　　☆ 12:00 Long Beach Japanese Cultural Center New Year Party ( Pot Luck)</b></p>
+        <p>17-Feb Regular Class 1:15-2:45 Credit Sp. Class</p>
+        <p>24-Feb Regular Class 1:15-2:45 Credit Sp. Class</p>
+      </div>
 
-	   <table id="calendar">		
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
@@ -470,10 +495,23 @@
 	   </table>
     </div>
       
-    <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      
+      
+      
+    <div class="toggleable" id="march-calendar">
+		  <h1 class="month-title">March 2018</h1>
 
-	   <table id="calendar">		
+      <div class="month-schedule">
+        <p>3-Mar Regular Class Hinamatsuri</p>
+        <p><b>to the Parents: Monthly Meeting 12:00 pm 1:15-2:45 Credit Sp. Class</b></p>
+        <p>10-Mar Regular Class 1:15-2:45 Credit Sp. Class</p>
+        <p>17-Mar Regular Class 1:15-2:45 Credit Sp. Class</p>
+        <p>24-Mar Regular Class 1:15-2:45 Credit Sp. Class</p>
+        <p><b>31-Mar Spring Break - NO SCHOOL</b></p>
+      </div>
+        
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
@@ -644,10 +682,19 @@
 	   </table>
     </div>
       
-    <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      
+    <div class="toggleable" id="april-calendar">
+		  <h1 class="month-title">April 2018</h1>
 
-	   <table id="calendar">		
+      <div class="month-schedule">
+        <p>7-Apr Regular Class</p>
+        <p><b>to the Parents: Monthly Meeting 12:00 pm</b></p>
+        <p>14-Apr Regular Class</p>
+        <p>28-Apr Regular Class</p>
+      </div>
+        
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
@@ -818,10 +865,20 @@
 	   </table>
     </div>
       
-    <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      
+    <div class="toggleable" id="may-calendar">
+		  <h1 class="month-title">May 2018</h1>
 
-	   <table id="calendar">		
+      <div class="month-schedule">
+        <p>5-May Regular Class "Tango no Sekku" 1:00 Japanese Language Credit Test</p>
+        <p><b>to the Parents: Monthly Meeting 12:00 pm Test Site : LBJLS </b></p>
+        <p><b>12-May ☆8:00 Mother's Day Pancake Breakfast</b></p>
+        <p>19-May Regular Class</p>
+        <p><b>26-May No School-Memorial Holiday </b></p>
+      </div>
+      
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
@@ -992,10 +1049,22 @@
 	   </table>
     </div>
       
-    <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      
+      
+      
+    <div class="toggleable" id="june-calendar">
+		  <h1>June 2018</h1>
 
-	   <table id="calendar">		
+      <div class="month-schedule">
+        <p>2-Jun Regular Class & Speech Contest Rehearsal</p>
+        <p>8:45 School starts (regular hour)</p>
+        <p><b>9-Jun 10:00 Annual Speech Contest </b></p>
+        <p>16-Jun 8:45 School starts (regular hour) 12:30 Clean up 1:00 Teacher's meeting</p>
+        <p><b>11:00 Graduation and the end of semester ceremony</b></p>
+      </div>
+      
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
@@ -1166,10 +1235,16 @@
 	   </table>
     </div>
       
-    <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      
+    <div class="toggleable" id="july-calendar">
+		  <h1 class="month-title">July 2018</h1>
+      
+      <div class="month-schedule">
+        <p><b>No classes scheduled for July</b></p>
+      </div>
 
-	   <table id="calendar">		
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
@@ -1340,10 +1415,18 @@
 	   </table>
     </div>
       
-    <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      
+      
+      
+    <div class="toggleable" id="august-calendar">
+		  <h1>August 2018</h1>
+      
+      <div class="month-schedule">
+        <p><b>No classes scheduled for August</b></p>
+      </div>
 
-	   <table id="calendar">		
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
@@ -1514,10 +1597,25 @@
 	   </table>
     </div>
       
-    <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      
+      
+      
+    <div class="toggleable" id="september-calendar">
+		  <h1 class="month-schedule">September 2018</h1>
+      
+      <div class="month-schedule">
+        <p><b>9-Sep LBJLS Fall Semester Starts (Registration) 1:00pm Teacher's Meeting</b></p>
+        <p><b>Credit Test Explanation to the participants on 10:35AM at the Tanabe's Class</b></p>
+        <p>to the Parents: Monthly Meeting 12:00 pm</p>
+        <p>16-Sep Regular Class ☆ Turn in Student's Credit Test Information</p>
+        <p>23-Sep Regular Class</p>
+        <p><b>29-Sep Application Due for The Japanese Language Proficiency Test (JLPT)
+</b></p>
+        <p>30- Sep Regular Class</p>
+      </div>
 
-	   <table id="calendar">		
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
@@ -1688,10 +1786,22 @@
 	   </table>
     </div>
       
-    <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      
+      
+      
+    <div class="toggleable" id="october-calendar">
+		  <h1 class="month-title">October 2018</h1>
+      
+      <div class="month-schedule">
+        <p>7-Oct Regular Class 1:00 PM Teacher's Meeting</p>
+        <p>to the Parents: Monthly Meeting 12:00 pm</p>
+        <p>14-Oct Regular Class</p>
+        <p>21-Oct Regular Class</p>
+        <p>28-Oct Regular Class</p>
+      </div>
 
-	   <table id="calendar">		
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
@@ -1862,10 +1972,20 @@
 	   </table>
     </div>
       
-    <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      
+    <div class="toggleable" id="november-calendar">
+		  <h1 class="month-title">November 2018</h1>
+      
+      <div class="month-schedule">
+        <p>4-Nov Regular Class 1:00 PM Teacher's Meeting</p>
+        <p>to the Parents: Monthly Meeting 12:00 pm</p>
+        <p>11-Nov Regular Class</p>
+        <p>18-Nov Regular Class</p>
+        <p><b>25-Nov No School -Thanksgiving Holiday</b></p>
+      </div>
 
-	   <table id="calendar">		
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
@@ -2036,10 +2156,25 @@
 	   </table>
     </div>
       
-    <div class="toggleable" id="january-calendar">
-		  <h1>December 2017</h1>
+      
+      
+      
+      
+    <div class="toggleable" id="december-calendar">
+		  <h1 class="month-title">December 2018</h1>
+      
+      <div class="month-schedule">
+        <p>2-Dec Regular Class</p>
+        <p>to the Parents: Monthly Meeting 12:00 pm 1:00 PM Teacher's Meeting
+</p>
+        <p><b>3-Dec (Sun) JLPT Test Site: USC http://www.aatj.org/jlpt/</b></p>
+        <p>9-Dec Regular Class</p>
+        <p>16-Dec 8:00 Pancake Breakfast 9:30 LBJLBA Annual General Meeting</p>
+        <p>10:00 Holiday Program (Long Beach Japanese Language Booster Association)</p>
+        <p><b>23 and 30 Dec No School-Winter Break </b></p>
+      </div>
 
-	   <table id="calendar">		
+	   <table class="calendar">		
         <tr>
           <th>Sunday</th>
           <th>Monday</th>
