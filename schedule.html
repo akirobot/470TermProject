@@ -6,24 +6,100 @@
         <link href ="css/reset.css" rel="stylesheet"/>
         <link href = "css/main.css" rel="stylesheet"/>
 		  <link href = "css/schedule.css" rel="stylesheet"/>
+		 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		 <script>
+			$(document).ready(function(){
+				$("#toggleable").hide();
+				
+				 $("#january-button").click(function(){
+					 $("#toggleable").hide();
+					  $("#january-calendar").show();
+				 });
+				("#february-button").click(function(){
+					$("#toggleable").hide();
+					  $("#february-calendar").show();
+				 });
+				("#march-button").click(function(){
+					$("#toggleable").hide();
+					  $("#march-calendar").show();
+				 });
+				("#april-button").click(function(){
+					$("#toggleable").hide();
+					  $("#april-calendar").show();
+				 });
+				("#may-button").click(function(){
+					$("#toggleable").hide();
+					  $("#may-calendar").show();
+				 });
+				("#june-button").click(function(){
+					$("#toggleable").hide();
+					  $("#june-calendar").show();
+				 });
+				("#july-button").click(function(){
+					$("#toggleable").hide();
+					  $("#july-calendar").show();
+				 });
+				("#august-button").click(function(){
+					$("#toggleable").hide();
+					  $("#august-calendar").show();
+				 });
+				("#september-button").click(function(){
+					$("#toggleable").hide();
+					  $("#september-calendar").show();
+				 });
+				("#october-button").click(function(){
+					$("#toggleable").hide();
+					  $("#october-calendar").show();
+				 });
+				("#november-button").click(function(){
+					$("#toggleable").hide();
+					  $("#november-calendar").show();
+				 });
+				("#december-button").click(function(){
+					$("#toggleable").hide();
+					  $("#december-calendar").show();
+				 });
+			});
+		</script>
     </head>
-    <body>
-        <header>
-    <p id="studentproject">Student Project - Not a commercial site</p>
-    <h1><a href="homepage.html">Long Beach Japanese Language School</a></h1>
-    <p id="lowertext"> "Serving the Greater Long Beach-Los Angeles Area for over 60 years"</p>
-    <nav id="navigation">
+	
+  <body>
+   	<header>
+      <p id="studentproject">Student Project - Not a commercial site</p>
+      <h1><a href="homepage.html">Long Beach Japanese Language School</a></h1>
+      <p id="lowertext"> "Serving the Greater Long Beach-Los Angeles Area for over 60 years"</p>
+      <nav id="navigation">
         <table>
-        <tr>
+          <tr>
             <td><a href="about.html">About Us</a></td>
             <td><a href="schedule.html">Class Schedule</a></td>
             <td><a href="divisions.html">Divisions</a></td>
             <td><a href="registration.php">Registration</a></td>
-        </tr>
+          </tr>
         </table>
-    </nav>
-</header>
+      </nav>
+    </header>
 		 
+		<div id="sidebar">
+		 	<div id="sidebar-text">
+				<ul>
+					<li id="january-button">January</li>
+					 <li id="february-button">February</li>
+					 <li id="march-button">March</li>
+					 <li id="april-button">April</li>
+					 <li id="may-button">May</li>
+					 <li id="june-button">June</li>
+					 <li id="july-button">July</li>
+					 <li id="august-button">August</li>
+					 <li id="september-button">September</li>
+					 <li id="october-button">October</li>
+					 <li id="november-button">November</li>
+					 <li id="december-button">December</li>
+				</ul>
+		  </div>
+		</div>
+		 
+		<div id="main-body">
 		 <div id="schedule">
 		 	 <h1>Class Schedule</h1>
 		 	 <p>2017 - 2018</p><br>
@@ -42,189 +118,2102 @@
 			 <p><b>June 16th</b> – Graduation</p><br><br>
 			 <p>Click on the following link to download a complete and detailed schedule in PDF format:</p><br>
 			 <a href="http://lbjls.org/?attachment_id=169">2017-2018 School Schedule</a>
-			 
-			 
-		 
 		 </div>
-		 
-		 <h1>December 2017</h1>
-		 
-	<table id="calendar">
-		
-		<tr>
-			<th>Sunday</th>
-			<th>Monday</th>
-			<th>Tuesday</th>
-			<th>Wednesday</th>
-			<th>Thursday</th>
-			<th>Friday</th>
-			<th>Saturday</th>
-		</tr>
-		
-		<tr>
-			<td>
-				<div class="day"></div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day"></div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day"></div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day"></div>
-				<div class="event"></div>
-			</td>
-			<td id="day1">
-				<div class="day">1</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">2</div>
-				<div class="event"></div>
-			</td>
-			<td id="day3">
-				<div class="day">3</div>
-				<div class="event">Japanese Language Proficiency Test
+	 
+      
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
 
-</div>
-			</td>
-		</tr>
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
 		
-		<tr>
-			<td id="day4">
-				<div class="day">4</div>
-				<div class="event">
-				</div>
-			</td>
-			<td>
-				<div class="day">5</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">6</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">7</div>
-				<div class="event"></div>
-			</td>
-			<td id="day8">
-				<div class="day">8</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">9</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">10</div>
-				<div class="event"></div>
-			</td>
-		</tr>
-		
-		<tr>
-			<td>
-				<div class="day">11</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">12</div>
-				<div class="event"></div>
-			</td>
-			<td id="day13">
-				<div class="day">13</div>
-				<div class="event"></div>
-			</td>
-			<td id="day14">
-				<div class="day">14</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">15</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">16</div>
-				<div class="event">Pancake Breakfast/Holiday Program
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
 
-</div>
-			</td>
-			<td id="day17">
-				<div class="day">17</div>
-				<div class="event"></div>
-			</td>
-		</tr>
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
+
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
 		
-		<tr>
-			<td>
-				<div class="day">18</div>
-				<div class="event"></div>
-			</td>
-			<td id="day19">
-				<div class="day">19</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">20</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">21</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">22</div>
-				<div class="event"></div>
-			</td>
-			<td id="day23">
-				<div class="day">23</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">24</div>
-				<div class="event"></div>
-			</td>
-		</tr>
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
+
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
+		
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
+
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
+		
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
+
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
+		
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
+
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
+		
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
+
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
+		
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
+
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
+		
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
+
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
+		
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
+
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
+		
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
+
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
+		
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>
+      
+    <div class="toggleable" id="january-calendar">
+		  <h1>December 2017</h1>
+
+	   <table id="calendar">		
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tr>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day"></div>
+          <div class="event"></div>
+        </td>
+        <td id="day1">
+          <div class="day">1</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">2</div>
+          <div class="event"></div>
+        </td>
+        <td id="day3">
+          <div class="day">3</div>
+          <div class="event">Japanese Language Proficiency Test
+          </div>
+        </td>
+      </tr>
+		
+      <tr>
+        <td id="day4">
+          <div class="day">4</div>
+          <div class="event">
+          </div>
+        </td>
+        <td>
+          <div class="day">5</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">6</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">7</div>
+          <div class="event"></div>
+        </td>
+        <td id="day8">
+          <div class="day">8</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">9</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">10</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">11</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">12</div>
+          <div class="event"></div>
+        </td>
+        <td id="day13">
+          <div class="day">13</div>
+          <div class="event"></div>
+        </td>
+        <td id="day14">
+          <div class="day">14</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">15</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">16</div>
+          <div class="event">Pancake Breakfast/Holiday Program
+
+  </div>
+        </td>
+        <td id="day17">
+          <div class="day">17</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="day">18</div>
+          <div class="event"></div>
+        </td>
+        <td id="day19">
+          <div class="day">19</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">20</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">21</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">22</div>
+          <div class="event"></div>
+        </td>
+        <td id="day23">
+          <div class="day">23</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">24</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="day25">
+          <div class="day">25</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">26</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">27</div>
+          <div class="event"></div>
+        </td>
+        <td id="day28">
+          <div class="day">28</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">29</div>
+          <div class="event"></div>
+        </td>
+        <td id="day30">
+          <div class="day">30</div>
+          <div class="event"></div>
+        </td>
+        <td>
+          <div class="day">31</div>
+          <div class="event"></div>
+        </td>
+      </tr>
+	   </table>
+    </div>  
+      
+  </div>
+    
+</body>
 	
-		<tr>
-			<td id="day25">
-				<div class="day">25</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">26</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">27</div>
-				<div class="event"></div>
-			</td>
-			<td id="day28">
-				<div class="day">28</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">29</div>
-				<div class="event"></div>
-			</td>
-			<td id="day30">
-				<div class="day">30</div>
-				<div class="event"></div>
-			</td>
-			<td>
-				<div class="day">31</div>
-				<div class="event"></div>
-			</td>
-		</tr>
-	
-	</table>
-		 
-
-    </body>
 	<footer id="contactinfo">
     <table>
     <tr>

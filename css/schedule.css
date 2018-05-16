@@ -3,8 +3,6 @@
 	margin: auto;
 	padding: 50px;
 	background-color: azure;
-	
-	
 }
 
 #schedule {
@@ -25,4 +23,25 @@
 
 #calendar td {
 	height: 80px;
+}
+
+#sidebar {
+	float: left;
+	width: 30%;
+	height: 1400px;
+	background-color: aquamarine;
+}
+
+#sidebar-text {
+	font-size: 2em;
+	padding: 30px 0 0 70px;
+}
+
+.toggleable {
+	display: none;
+}
+
+#main-body {
+	float: right;
+	width: 70%;
 }
