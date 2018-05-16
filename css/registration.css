@@ -7,7 +7,7 @@ form	{
 	width: 60%
 }
 
-.form_panel {
+.form.panel {
 	margin: 3em auto;
 	background-color: #FFFFFF;
 	width: 80%;
@@ -66,4 +66,15 @@ form	{
 	margin: auto;
 	width: 80%;
 	text-align: left;
+}
+
+/**Highlights**/
+.highlight {
+    background-color: #FFE0B2;
+} 
+
+.error {
+    background: #FFCDD2 url(error.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #FF5252;
+    border-color: #FF1744;    
 }
